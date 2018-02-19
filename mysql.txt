@@ -1,0 +1,7 @@
+use aws;
+CREATE TABLE DESCRIPTION(
+photo_name    varchar(40),
+photo_desc    varchar(100),
+PRIMARY KEY (photo_name)
+);
+
